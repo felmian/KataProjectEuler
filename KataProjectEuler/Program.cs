@@ -15,6 +15,10 @@ namespace KataProjectEuler
             _001_MultiplesOf3and5 _001 = new _001_MultiplesOf3and5();
             _001.GetResult();
 
+            //002
+            _002_EvenFibonaccinumbers _002 = new _002_EvenFibonaccinumbers();
+            _002.GetResult();
+
 
 
             Console.ReadKey();
