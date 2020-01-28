@@ -1,4 +1,5 @@
-﻿using KataProjectEuler.Problems;
+﻿using KataProjectEuler.Interface;
+using KataProjectEuler.Problems;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,11 +13,11 @@ namespace KataProjectEuler
         static void Main(string[] args)
         {
             //001
-            _001_MultiplesOf3and5 _001 = new _001_MultiplesOf3and5();
+            IProblemResult _001 = new _001_MultiplesOf3and5();
             _001.GetResult();
 
             //002
-            _002_EvenFibonaccinumbers _002 = new _002_EvenFibonaccinumbers();
+            IProblemResult _002 = new _002_EvenFibonaccinumbers();
             _002.GetResult();
 
 

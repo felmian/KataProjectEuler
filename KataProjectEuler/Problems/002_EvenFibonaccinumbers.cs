@@ -1,4 +1,5 @@
-﻿using System;
+﻿using KataProjectEuler.Interface;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,7 +16,7 @@ By considering the terms in the Fibonacci sequence whose values do not exceed fo
  */
 namespace KataProjectEuler.Problems
 {
-    class _002_EvenFibonaccinumbers
+    class _002_EvenFibonaccinumbers: IProblemResult
     {
         public void GetResult()
         {
