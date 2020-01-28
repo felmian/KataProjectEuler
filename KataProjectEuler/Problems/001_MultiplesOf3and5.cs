@@ -1,4 +1,5 @@
-﻿using System;
+﻿using KataProjectEuler.Interface;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,7 +16,7 @@ Find the sum of all the multiples of 3 or 5 below 1000.
 
 namespace KataProjectEuler.Problems
 {
-    class _001_MultiplesOf3and5
+    class _001_MultiplesOf3and5: IProblemResult
     {
         public void GetResult()
         {
