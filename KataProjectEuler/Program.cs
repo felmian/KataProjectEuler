@@ -20,8 +20,12 @@ namespace KataProjectEuler
             IProblemResult _002 = new _002_EvenFibonaccinumbers();
             _002.GetResult();
 
+            //003
+            IProblemResult _003 = new _003__LargestPprimeFactor();
+            _003.GetResult();
 
 
+            Console.WriteLine("End program!");
             Console.ReadKey();
         }
     }
