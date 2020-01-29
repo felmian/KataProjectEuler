@@ -24,6 +24,10 @@ namespace KataProjectEuler
             IProblemResult _003 = new _003__LargestPprimeFactor();
             _003.GetResult();
 
+            //004
+            IProblemResult _004 = new _004_LargestPalindromeProduct();
+            _004.GetResult();
+
 
             Console.WriteLine("End program!");
             Console.ReadKey();
