@@ -32,7 +32,7 @@ namespace KataProjectEuler.Problems
                     }
                 }
             }
-            Console.WriteLine("Max polindrom = " + maxPolondrom);
+            Console.WriteLine("4:   " + maxPolondrom);
         }
         private bool IsPolindrom(int v)
         {

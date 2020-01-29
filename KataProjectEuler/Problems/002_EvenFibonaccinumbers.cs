@@ -35,7 +35,7 @@ namespace KataProjectEuler.Problems
                     sumChet += oldNum;
 
             }
-            Console.WriteLine(sumChet);
+            Console.WriteLine("2:   " + sumChet);
         }
 
         private int GetSum(int v1, int v2)

@@ -35,7 +35,7 @@ namespace KataProjectEuler.Problems
                     }
                 }
             }
-            Console.WriteLine(sum);
+            Console.WriteLine("3:   " + sum);
         }
     }
 }

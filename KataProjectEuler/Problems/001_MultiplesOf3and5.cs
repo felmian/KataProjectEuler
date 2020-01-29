@@ -27,7 +27,7 @@ namespace KataProjectEuler.Problems
                 if (i % 3 == 0 || i % 5 == 0)
                     summa += i;
             }
-            Console.WriteLine(summa);
+            Console.WriteLine("1:   "+summa);
         }
     }
 }

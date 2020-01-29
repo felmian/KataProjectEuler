@@ -1,10 +1,6 @@
 ﻿using KataProjectEuler.Interface;
 using KataProjectEuler.Problems;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace KataProjectEuler
 {
@@ -22,7 +18,7 @@ namespace KataProjectEuler
 
             //003
             IProblemResult _003 = new _003__LargestPprimeFactor();
-            _003.GetResult();
+            //_003.GetResult(); //Heavy CPU load
 
             //004
             IProblemResult _004 = new _004_LargestPalindromeProduct();
