@@ -24,6 +24,10 @@ namespace KataProjectEuler
             IProblemResult _004 = new _004_LargestPalindromeProduct();
             _004.GetResult();
 
+            //005
+            IProblemResult _005 = new _005_SmallestMultiple();
+            _005.GetResult();
+
 
             Console.WriteLine("End program!");
             Console.ReadKey();

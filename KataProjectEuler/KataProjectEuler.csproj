@@ -48,6 +48,7 @@
     <Compile Include="Problems\002_EvenFibonaccinumbers.cs" />
     <Compile Include="Problems\003_ LargestPprimeFactor.cs" />
     <Compile Include="Problems\004_LargestPalindromeProduct.cs" />
+    <Compile Include="Problems\005_SmallestMultiple.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
