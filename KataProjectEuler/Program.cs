@@ -28,6 +28,10 @@ namespace KataProjectEuler
             IProblemResult _005 = new _005_SmallestMultiple();
             _005.GetResult();
 
+            //006
+            IProblemResult _006 = new _006_SumSquareDifference();
+            _006.GetResult();
+
 
             Console.WriteLine("End program!");
             Console.ReadKey();
