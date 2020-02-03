@@ -32,6 +32,10 @@ namespace KataProjectEuler
             IProblemResult _006 = new _006_SumSquareDifference();
             _006.GetResult();
 
+            //007
+            IProblemResult _007 = new _007_10001stPrime();
+            _007.GetResult();
+
 
             Console.WriteLine("End program!");
             Console.ReadKey();
