@@ -40,6 +40,10 @@ namespace KataProjectEuler
             IProblemResult _008 = new _008__LargestProductInAseries();
             _008.GetResult();
 
+            //009
+            IProblemResult _009 = new _009_SpecialPythagoreanTriplet();
+            _009.GetResult();
+
 
             Console.WriteLine("End program!");
             Console.ReadKey();
