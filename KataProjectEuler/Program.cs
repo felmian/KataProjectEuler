@@ -36,6 +36,10 @@ namespace KataProjectEuler
             IProblemResult _007 = new _007_10001stPrime();
             _007.GetResult();
 
+            //008
+            IProblemResult _008 = new _008__LargestProductInAseries();
+            _008.GetResult();
+
 
             Console.WriteLine("End program!");
             Console.ReadKey();
