@@ -1,12 +1,13 @@
 ﻿using KataProjectEuler.Interface;
 using KataProjectEuler.Problems;
 using System;
+using System.Diagnostics;
 
 namespace KataProjectEuler
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             //001
             IProblemResult _001 = new _001_MultiplesOf3and5();
@@ -43,6 +44,11 @@ namespace KataProjectEuler
             //009
             IProblemResult _009 = new _009_SpecialPythagoreanTriplet();
             _009.GetResult();
+
+            //010
+            IProblemResult _010 = new _010_SummationOfPrimes();
+            _010.GetResult();
+
 
 
             Console.WriteLine("End program!");
