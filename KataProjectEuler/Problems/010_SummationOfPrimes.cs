@@ -72,7 +72,7 @@ namespace KataProjectEuler.Problems
             {
                 sumResult += result[i];
             }
-            Console.WriteLine("9:   " + (sumResult + 2));
+            Console.WriteLine("10:   " + (sumResult + 2));
         }
        /// <summary>
        /// Task

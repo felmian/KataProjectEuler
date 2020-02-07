@@ -49,6 +49,11 @@ namespace KataProjectEuler
             IProblemResult _010 = new _010_SummationOfPrimes();
             _010.GetResult();
 
+            //011
+            IProblemResult _011= new _011_LargestProductInAgrid();
+            _011.GetResult();
+
+
 
 
             Console.WriteLine("End program!");
