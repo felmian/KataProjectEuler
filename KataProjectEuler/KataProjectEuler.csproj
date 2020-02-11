@@ -55,6 +55,7 @@
     <Compile Include="Problems\009_SpecialPythagoreanTriplet.cs" />
     <Compile Include="Problems\010_SummationOfPrimes.cs" />
     <Compile Include="Problems\011_LargestProductInAgrid.cs" />
+    <Compile Include="Problems\012_HighlyDivisibleTriangularNumber.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
