@@ -37,7 +37,7 @@ namespace KataProjectEuler.Problems
 {
     class _012_HighlyDivisibleTriangularNumber : IProblemResult
     {
-        private const int DIVISORS = 300;    //количество делителей будем искать
+        private const int DIVISORS = 500;    //количество делителей будем искать
         private long TriangleNumberSum = 0;    //число триугольника
         private long CurrentNumberTriangle = 0;
         private long CountDivisior = 0;    
@@ -51,6 +51,7 @@ namespace KataProjectEuler.Problems
             for (int i = 0; i < countDivisorsFromNumber; i++)
             {
                 SumNumberTriangle += i;
+                if(SumNumberTriangle % 2==0)
                 ThreadPool.QueueUserWorkItem(Worker, new ParamTr { numberTriangl = i, SumNumberTriangle = SumNumberTriangle });
             }
             for (int i = 0; i < 1000; i++)
