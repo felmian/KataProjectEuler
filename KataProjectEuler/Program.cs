@@ -54,8 +54,12 @@ namespace KataProjectEuler
             //_011.GetResult();
 
             //012
-            IProblemResult _012 = new _012_HighlyDivisibleTriangularNumber();
-            _012.GetResult();
+            //IProblemResult _012 = new _012_HighlyDivisibleTriangularNumber();
+            //_012.GetResult();
+
+            //013
+            IProblemResult _013 = new _013_LargeSum();
+            _013.GetResult();
 
 
 
